@@ -3,7 +3,7 @@
 # (c) Shrimadhav U K
 
 import os
-from datetime import time
+import time
 
 # the secret configuration specific things
 if bool(os.environ.get("ENV", False)):
